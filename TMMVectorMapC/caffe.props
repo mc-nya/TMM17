@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;E:\DEVsoftware\caffe\caffe\build\libraries\include;E:\DEVsoftware\caffe\caffe\build\include;E:\DEVsoftware\caffe\caffe\build\caffe;E:\DEVsoftware\caffe\caffe\include;E:\DEVsoftware\caffe\caffe\build\libraries\include\boost-1_61;E:\DEVsoftware\caffe\caffe\build\libraries\include\gflags;E:\DEVsoftware\caffe\caffe\build\libraries\include\glog;E:\DEVsoftware\caffe\caffe\build\libraries\include\opencv2;E:\DEVsoftware\caffe\caffe\build\libraries\include\opencv;E:\DEVsoftware\caffe\caffe\build\libraries\include\leveldb;E:\DEVsoftware\caffe\caffe\build\libraries\include\google;$(IncludePath)</IncludePath>
+    <ReferencePath>E:\DEVsoftware\caffe\caffe\build\lib\Debug;E:\DEVsoftware\caffe\caffe\build\libraries\lib;E:\DEVsoftware\caffe\caffe\build\libraries\x64\vc14\lib;E:\DEVsoftware\caffe\caffe\build\libraries\x64\vc14\bin;E:\DEVsoftware\caffe\caffe\build\libraries\x64\vc14\staticlib;E:\DEVsoftware\caffe\caffe\build\libraries\bin;E:\DEVsoftware\caffe\caffe\build\x64\Debug;E:\DEVsoftware\caffe\caffe\build\tools\Release;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64;$(ReferencePath)</ReferencePath>
+    <LibraryPath>E:\DEVsoftware\caffe\caffe\build\libraries\bin;E:\DEVsoftware\caffe\caffe\build\lib\Release;E:\DEVsoftware\caffe\caffe\build\libraries\x64\vc14\staticlib;E:\DEVsoftware\caffe\caffe\build\libraries\x64\vc14\bin;E:\DEVsoftware\caffe\caffe\build\libraries\x64\vc14\lib;E:\DEVsoftware\caffe\caffe\build\libraries\lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

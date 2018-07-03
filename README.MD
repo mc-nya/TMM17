@@ -1,4 +1,4 @@
-# superpixel & random ferns human detector
+# TMM17 human detector
 
 ## 说明
 
